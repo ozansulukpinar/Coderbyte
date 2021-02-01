@@ -2,7 +2,7 @@
 
 GitHub Repo: https://github.com/ozansulukpinar/Coderbyte
 
-Coderbyte is a website for solving coding challenges. All challengeable problems are published on this website: https://coderbyte.com/
+Coderbyte is a website for solving coding challenges. A lot of challengeable problems are published on this website: https://coderbyte.com/
 
 I chose some of them to solve.
 
