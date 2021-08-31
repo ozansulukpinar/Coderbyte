@@ -5,34 +5,16 @@ program should return the string sredoC dna dlroW olleH.
 */
 
 using System;
-using System.Linq;
-using System.Collections.Generic;
 
 public class Solution0001
 {
     public static string FirstReverse(string text)
     {
-        string result;
+        char[] letterArray = text.ToCharArray();
 
-        string reversedText = "";
+        Array.Reverse(letterArray);
 
-        char[] arrayOfText = text.ToArray();
-
-        List<char> elements = new List<char>();
-
-        foreach (var item in arrayOfText)
-        {
-            elements.Add(item);
-        }
-
-        int numberOfElements = elements.Count;
-
-        for (int l = (numberOfElements - 1); l >= 0; l--)
-        {
-            reversedText += elements[l];
-        }
-
-        result = reversedText;
+        string result = new string(letterArray);
 
         return result;
     }
